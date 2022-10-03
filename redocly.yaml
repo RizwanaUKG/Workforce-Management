@@ -2,7 +2,7 @@ organization: Workforce-Management
 
 apis:
   wfm@v1: 
-    root: openapi/openapi.yaml
+    root: http://localhost:8089/v1/employee/getAll
 lint:
   extends:
     - recommended
